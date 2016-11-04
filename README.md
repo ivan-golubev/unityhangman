@@ -37,7 +37,7 @@ Assets/HangmanDiagram/[0,7].jpg
 UI flow:
 --------
 1. ChooseTopicDialogue
-2. MainGameScene: WordDashesDialogue + HangmanDiagram + ControlPanel
+2. MainScene: WordDashesView + HangmanDiagram + ControlPanel
 3. WinLostDialogue
 
 Game components:
@@ -81,3 +81,13 @@ Main Logic:
 - find indexes of input char in the answer
 - update the WordDashes UI to show the characters
 - if WordDashesState = Answer - go to WinDialogue
+
+Tech stack:
+----------
+
+Unity 5.4.1
+
+Target platform:
+---------------
+
+PC, win 10, 64bit
